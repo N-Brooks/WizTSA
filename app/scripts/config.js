@@ -15,17 +15,17 @@ import * as scenes from '@/scenes';
 /**
  *  Game canvas width.
  */
-export const width = 640;
+export const width = 800;
 
 /**
  *  Game canvas height.
  */
-export const height = 480;
+export const height = 600;
 
 /**
  *  Adjust zoom factor.
  */
-export const zoom = 1;
+export const zoom = 2;
 
 /**
  *  Adjust pixel density of game graphics.
@@ -47,7 +47,7 @@ export const type = Phaser.AUTO;
 /**
  *  Whether to disable antialiasing or not. Great for pixel art.
  */
-export const pixelArt = false;
+export const pixelArt = true;
 
 /**
  *  Whether to enable canvas transparency or not.

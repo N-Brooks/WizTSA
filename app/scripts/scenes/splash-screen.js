@@ -35,6 +35,7 @@ export default class SplashScreen extends Phaser.Scene {
 
     //  HINT: Declare all game assets to be loaded here.
     this.load.image('logo');
+    this.load.image('dungeon', 'tilesets/Dungeon_Tiles.png');
   }
 
   /**
@@ -45,7 +46,7 @@ export default class SplashScreen extends Phaser.Scene {
    */
   create() {
     //  We have nothing left to do here. Start the next scene.
-    this.scene.start('Game');
+    this.scene.start('Level');
   }
 
   //  ------------------------------------------------------------------------

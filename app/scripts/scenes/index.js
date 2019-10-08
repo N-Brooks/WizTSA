@@ -7,4 +7,5 @@
  */
 
 export {default as SplashScreen} from './splash-screen';
+export {default as Level} from './level';
 export {default as Game} from './game';
