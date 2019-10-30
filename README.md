@@ -40,3 +40,8 @@ Phaser 3 and `generator-phaser-plus`.
 Should you consider distributing your game as an open source project, please
 [choose and include a LICENSE file](http://choosealicense.com/) for your
 project.
+
+## Contributors
+
+Nicole Brooks
+Erik Feeley
